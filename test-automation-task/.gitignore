@@ -1,0 +1,48 @@
+# General
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# Maven specific
+/target/
+!target/*.keep
+*.jar
+*.war
+*.ear
+
+*.lst
+*.txt
+
+# VSCode specific
+.vscode/
+*.code-workspace
+
+# OS specific
+.DS_Store
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+
+# Dependency directories
+/node_modules/
+/.pnp/
+.pnp.js
+
+# Logs and Temporary Files
+hs_err_pid*
+
+# Environment Files
+.env
+
+# Backup files
+*.bak
+*.orig
+
+# WireMock
+/wiremock-*.jar
